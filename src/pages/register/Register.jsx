@@ -10,7 +10,7 @@ const Register = () => {
     setShowSuccess(!showSuccess);
   }
   return (
-    <div className="contact">
+    <>
       <NavBar />
       <section className="register__main">
         <div className="register__container">
@@ -77,7 +77,7 @@ const Register = () => {
         </div>
         {showSuccess && <RegisterSuccess setShowSuccess={setShowSuccess} />}
       </section>
-    </div>
+    </>
   );
 };
 

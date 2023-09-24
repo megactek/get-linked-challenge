@@ -135,7 +135,7 @@
   .only__mobile {
     display: block;
   }
-  .contact > .navbar__container {
+  .contact .navbar__container {
     display: none;
   }
   .contact__container {
@@ -145,9 +145,6 @@
   }
   .contact__left {
     display: none;
-  }
-  .only__mobile {
-    display: block;
   }
   .contact__right {
     display: flex;

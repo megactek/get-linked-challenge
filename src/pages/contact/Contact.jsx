@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <>
+    <div className="contact">
       <NavBar />
       <section className="contact__main">
         <div className="only__mobile top">
@@ -50,7 +50,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
