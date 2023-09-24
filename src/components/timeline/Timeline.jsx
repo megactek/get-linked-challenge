@@ -12,7 +12,7 @@ const Timeline = () => {
     });
   }, []);
   return (
-    <section className="timeline__container">
+    <section className="timeline__container" id="timeline">
       <h2>Timeline</h2>
       <p>Here is the breakdown of the time we anticipate using for the upcoming event.</p>
       <div className="timeline__map">

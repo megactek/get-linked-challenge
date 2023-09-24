@@ -36,8 +36,8 @@ const Hero = () => {
   const { hours, minutes, seconds } = timeRemaining;
 
   return (
-    <section className="hero__main">
-      <section className="hero__container">
+    <section className="hero__main" id="overview">
+      <div className="hero__container">
         <div className="hero__top">
           <h3>
             Igniting a Revolution in
@@ -89,7 +89,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </section>
   );
 };

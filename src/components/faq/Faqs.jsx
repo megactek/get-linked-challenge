@@ -4,8 +4,8 @@ import { faqs } from "../../data";
 
 const Faqs = () => {
   return (
-    <section className="faq__main">
-      <div className="faq__container">
+    <section className="faq__main" id="faq">
+      <div className="faq__container" id="faq">
         <div className="faq__left">
           <h2>
             Frequently Ask <span className="primary-text ">Question</span>
