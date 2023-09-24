@@ -21,7 +21,7 @@ const Faqs = () => {
           </div>
         </div>
         <div className="faq__right">
-          <img src="assets/images/faq-image.png" alt="" className="faq__image" />
+          <img src="assets/images/faq-image.png" alt="" className="" />
         </div>
       </div>
     </section>

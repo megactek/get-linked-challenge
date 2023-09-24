@@ -128,3 +128,32 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .privacy__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .privacy__right {
+    margin-top: 2%;
+    width: 70%;
+    margin: auto;
+  }
+  .privacy__right img {
+    width: 100%;
+  }
+  .privacy__left {
+    width: 100%;
+  }
+  .privacy__left-bottom {
+    padding: 20px;
+  }
+  .privacy__left-bottom button {
+    width: 100%;
+  }
+  .privacy__right {
+    margin-top: -60px;
+  }
+}

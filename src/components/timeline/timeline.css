@@ -212,4 +212,37 @@
   .timeline__map {
     margin-top: 8%;
   }
+  .timeline__map > ul::before {
+    grid-row: 1 / span 6;
+  }
+  .timeline__content-content > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170.9%;
+    width: 100%;
+  }
+  .timeline__content-content > h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .timeline__map > ul > li:nth-child(even) > .timeline__content {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+  .timeline__content-content {
+    text-align: left;
+  }
+  .timeline__map > ul > li:nth-child(even) > .timeline__content > .timeline__content-content {
+    display: flex;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 550px) {
+  .timeline__map > ul::before {
+    grid-row: 1 / span 20;
+  }
+  .timeline__content {
+    text-align: left !important;
+  }
 }

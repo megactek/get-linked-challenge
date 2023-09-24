@@ -87,3 +87,32 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 550px) {
+  .intro__container {
+    margin-top: 90px;
+    width: 90%;
+  }
+  .intro__image-container {
+    width: 90%;
+    margin: auto;
+  }
+  .intro__image-idea {
+    width: 100%;
+    margin: auto;
+  }
+  .intro__image-container p {
+    width: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    top: 125px;
+    left: 95px;
+  }
+  .intro__right {
+    width: 100%;
+    font-weight: 500;
+  }
+  .intro__right p {
+    font-weight: 500;
+    width: 100%;
+  }
+}

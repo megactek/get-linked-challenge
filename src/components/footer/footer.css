@@ -198,3 +198,25 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 550px) {
+  .footer__container {
+    width: 90%;
+  }
+  .footer__top {
+    width: 110%;
+    padding: 0px;
+    margin: auto;
+    margin-left: -20px;
+  }
+  .top__left-top p {
+    width: 110%;
+  }
+  .footer__top {
+    /* border: 1px solid #ccc; */
+    padding: 0;
+    /* margin: auto; */
+  }
+  .link__divider {
+    padding: 1px;
+  }
+}

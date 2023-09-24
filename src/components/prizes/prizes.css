@@ -27,7 +27,6 @@
   margin-top: 30px;
   width: 78%;
   font-size: 16px;
-
   font-weight: 400;
   line-height: 170.9%;
 }
@@ -179,5 +178,84 @@
   }
   .prizes__box:nth-child(even) > .prizes__text p {
     margin-top: -15px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .prizes__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prizes__top p,
+  .prizes__top h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .prizes__bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prizes__trophy {
+    width: 100%;
+  }
+  .prizes__trophy-image {
+    width: 100%;
+  }
+  .prizes__medals {
+    width: 115%;
+    margin-top: 200px;
+    gap: 10px;
+  }
+  .prizes__text {
+    bottom: 40px;
+  }
+  .prizes__text p,
+  .prizes__text span {
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+  }
+  .prizes__text span {
+    margin-top: -10px;
+    left: 10px;
+  }
+  .prizes__box {
+    width: 32%;
+    margin: auto;
+  }
+  .prizes__text {
+    position: relative;
+  }
+  .prizes__image {
+    position: absolute;
+    top: 0;
+  }
+  .prizes__box:nth-child(even) > .prizes__image {
+    position: absolute;
+    top: 13%;
+    left: -40px;
+  }
+  .prizes__box:nth-child(even) > .prizes__image {
+    width: 140%;
+  }
+  .prizes__box:nth-child(odd) > .prizes__text {
+    margin-top: -10px;
+  }
+  .prizes__box:nth-child(even) > .prizes__text p {
+    margin-top: -50px;
+  }
+  .prizes__box:nth-child(even) > .prizes__text span {
+    margin-top: -60px;
+  }
+
+  .prizes__box:nth-child(odd) .prizes__text {
+    height: 200px;
+  }
+
+  .prizes__box:nth-child(even) .prizes__text {
+    height: 200px;
+    margin-top: -10px;
   }
 }
