@@ -1,0 +1,110 @@
+.judging__main {
+  width: 100%;
+  background-image: url("../../assets/images/judging-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.judging__container {
+  display: flex;
+  gap: 40px;
+  width: 85%;
+  margin: auto;
+  padding: 32px;
+}
+.judging__left {
+  flex: 1;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.judging__image {
+  margin-top: 40px;
+  height: 86%;
+  width: 96%;
+}
+.judging__right {
+  flex: 1;
+  width: 50%;
+}
+.judging__right > h2 {
+  font-size: 32px;
+  font-weight: 700;
+  width: 40%;
+}
+.judging__criteria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.judging__criteria > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 173.5%;
+}
+.judging__criteria > p > .judging__topic {
+  color: #ff26b9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 173.5%;
+  margin-right: 3px;
+}
+.judging__right > div > button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 25%;
+  padding: 17px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 0px;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 56.42%, #ff26b9 99.99%, #fe34b9 100%);
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1050px) {
+  .judging__container {
+    flex-direction: column;
+    margin-top: 9%;
+    gap: 30px;
+  }
+  .judging__left {
+    width: 100%;
+  }
+  .judging__right {
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+  .judging__right h2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .judging__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .judging__right p {
+    margin-top: 50px;
+    text-align: center;
+    width: 74%;
+    margin: auto;
+  }
+  .judging__right > div:last-child {
+    width: 100%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+  }
+  .judging__right > div > button {
+    width: 40%;
+    border-radius: 3px;
+    padding: 18px;
+    margin: auto;
+  }
+}

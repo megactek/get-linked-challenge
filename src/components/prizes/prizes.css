@@ -1,0 +1,183 @@
+.prizes__main {
+  background-image: url("../../assets/images/prizes-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.prizes__container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.prizes__top {
+  align-self: flex-end;
+  margin: 40px 0 20px 0;
+}
+.prizes__top h2 {
+  font-family: "Familjen Grotesk", "Helvetica Neue";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 40%;
+  margin-top: 40px;
+}
+.prizes__top p {
+  margin-top: 30px;
+  width: 78%;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 170.9%;
+}
+.prizes__bottom {
+  display: flex;
+}
+.prizes__trophy {
+  flex: 1;
+}
+.prizes__medals {
+  flex: 1;
+  display: flex;
+  margin-top: 180px;
+  gap: 3px;
+}
+
+.prizes__box {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  position: relative;
+}
+.prizes__image {
+  margin-top: -110px;
+  z-index: 99;
+}
+.prizes__text {
+  position: absolute;
+  bottom: 20px;
+  border-radius: 13px;
+}
+.prizes__text:nth-child(even) {
+  height: 347px;
+  width: 212px;
+}
+.prizes__text:nth-child(odd) {
+  height: 296px;
+  width: 212px;
+}
+
+.prizes__box:nth-child(odd) .prizes__text {
+  border-radius: 8px;
+  margin-bottom: 9px;
+  border: 1px solid #d434fe;
+  background: rgba(212, 52, 254, 0.12);
+}
+
+.prizes__box:nth-child(even) .prizes__text {
+  border-radius: 8px;
+  border: 1px solid #903aff;
+  background: rgba(144, 58, 255, 0.12);
+}
+.prizes__text > p,
+.prizes__text > span {
+  position: absolute;
+}
+.prizes__text > p {
+  top: 40%;
+  right: -2%;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+
+  font-weight: 700;
+}
+.prizes__text > span {
+  top: 70%;
+  right: 11%;
+  text-align: center;
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 32px;
+
+  font-weight: 700;
+  line-height: 216.4%;
+}
+.prizes__box:nth-child(even) .prizes__text p,
+.prizes__box:nth-child(3) .prizes__text p {
+  width: 50%;
+  right: 35%;
+}
+.prizes__box:nth-child(even) .prizes__text span {
+  width: 50%;
+  right: 35%;
+  color: #903aff;
+}
+.prizes__medals .prizes__box:nth-child(even) .prizes__image {
+  margin-top: -190px;
+
+  height: 80%;
+}
+.prizes__medals .prizes__box:nth-child(even) .prizes__image img {
+  margin-left: 32px;
+  width: 80%;
+}
+
+.prizes__trophy-img {
+  width: 98%;
+}
+
+@media screen and (max-width: 1050px) {
+  .prizes__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .prizes__top p,
+  .prizes__top h2 {
+    text-align: center;
+  }
+  .prizes__bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }
+  .prizes__trophy {
+    width: 70%;
+  }
+  .prizes__trophy-image {
+    width: 100%;
+  }
+  .prizes__medals {
+    margin-top: 200px;
+    gap: 20px;
+  }
+  .prizes__box {
+    margin: auto;
+  }
+  .prizes__text {
+    position: relative;
+  }
+  .prizes__image {
+    position: absolute;
+    top: 0;
+  }
+  .prizes__box:nth-child(even) > .prizes__image {
+    position: absolute;
+    top: 13%;
+    left: -47px;
+  }
+  .prizes__box:nth-child(even) > .prizes__image {
+    width: 140%;
+  }
+  .prizes__box:nth-child(odd) > .prizes__text {
+    margin-top: -30px;
+  }
+  .prizes__box:nth-child(even) > .prizes__text p {
+    margin-top: -15px;
+  }
+}

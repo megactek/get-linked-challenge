@@ -1,0 +1,123 @@
+.partners__main {
+  background-image: url("../../assets/images/partners-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.partners__container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.partners__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 56px 0 70px 0;
+}
+.partners__top h2 {
+  color: #fff;
+  font-family: "Familjen Grotesk", "Helvetica Neue";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 27.5px;
+}
+.partners__top > p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.5px;
+  width: 37%;
+}
+
+.partners__bottom {
+  height: 70%;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.partners__bottom-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10%;
+}
+.partners__bottom-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10%;
+}
+.partners__image-box {
+  min-width: 250px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partners__vertical-border {
+  position: absolute;
+  right: -5%;
+  top: 9px;
+  height: 70%;
+  background: #d434fe;
+  padding: 1.3px;
+  border-radius: 9px;
+  margin: 0 2px;
+}
+
+.partners__horizon {
+  position: absolute;
+  outline: none;
+  border: none;
+  bottom: 0;
+  padding: 2px;
+  background: #d434fe;
+  width: 80%;
+  right: 9%;
+}
+@media screen and (max-width: 1050px) {
+  .partners__bottom {
+    padding: 40px;
+    height: 70%;
+    width: 100%;
+    gap: 40px;
+  }
+  .partners__top {
+    margin-top: 29%;
+    /* gap: 20px; */
+  }
+  .partners__bottom-top {
+    gap: 6px;
+  }
+  .partners__bottom-bottom {
+    gap: 5px;
+  }
+  .partners__image-box {
+    width: 40px;
+    height: 90px;
+  }
+  .partners__horizon {
+    margin-bottom: -24px;
+    width: 70%;
+  }
+}

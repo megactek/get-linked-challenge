@@ -1,0 +1,72 @@
+.rules__main {
+  width: 100%;
+  background-image: url("../../assets/images/rules-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rules__container {
+  margin: auto;
+  width: 85%;
+  display: flex;
+}
+.rules__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 70px;
+  position: relative;
+  color: #fff;
+}
+.rules__left > h2 {
+  font-family: "Familjen Grotesk", "Helvetica Neue";
+  width: 30%;
+  margin: 100px 0 0 50px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.rules__left > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.5px;
+  margin: 0 50px;
+  width: 100%;
+}
+
+.rules__right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rules__image {
+  width: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .rules__container {
+    flex-direction: column-reverse;
+  }
+  .rules__left h2,
+  .rules__left p {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+  }
+  .rules__left h2 {
+    width: 40%;
+    margin-bottom: 4%;
+  }
+  .rules__left p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 211.538% */
+  }
+  .rules__image {
+    width: 80%;
+    margin: auto;
+  }
+}

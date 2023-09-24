@@ -1,0 +1,130 @@
+.privacy__main {
+  background-image: url("../../assets/images/privacy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.privacy__container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 70px;
+  color: #fff;
+}
+
+.privacy__left {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.privacy__left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.privacy__left h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.privacy__left-top span {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+}
+
+.privacy__left-top p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 188.4%;
+  width: 76%;
+}
+
+.privacy__left-bottom {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 90px;
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(217, 217, 217, 0.03);
+}
+.privacy__left-bottom button {
+  width: 40%;
+  border-radius: 6px;
+  padding: 18px;
+  justify-self: center;
+  align-self: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.privacy__license > h3 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.4%;
+}
+.privacy__license > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.4%; /* 30.296px */
+}
+
+.privacy__license > ul {
+  list-style: none;
+}
+.privacy__license > ul li {
+  display: flex;
+  gap: 7px;
+}
+.privacy__license > ul li > p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 216.4%;
+}
+.list-icon {
+  margin-top: 8px;
+  height: 30px;
+  width: 30px;
+  background-image: url("../../assets/images/check-icon.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.privacy__right {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 1050px) {
+  .privacy__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .privacy__right {
+    margin-top: 2%;
+    width: 70%;
+    margin: auto;
+  }
+  .privacy__right img {
+    width: 100%;
+  }
+}

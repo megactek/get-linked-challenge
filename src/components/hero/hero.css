@@ -1,0 +1,191 @@
+.hero__main {
+  background-image: url("../../assets/images/hero-stars-new.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero__container {
+  width: 85%;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.hero__top {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero__top > h3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+.hero__bottom {
+  display: flex;
+}
+
+.hero__left {
+  flex: 1;
+}
+
+.hero__header {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.hero__header > h2:nth-child(1) {
+  margin-top: 150px;
+  margin-bottom: -20px;
+}
+.hero__header > h2 {
+  margin-top: -10px;
+  font-size: 80px;
+  letter-spacing: -3px;
+  font-weight: 800;
+  display: flex;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+.hero__header > p {
+  width: 80%;
+  margin: 20px 0px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%;
+}
+.hero__idea-parent {
+  position: relative;
+  margin-left: 15px;
+}
+.hero__header-idea {
+  position: absolute;
+  top: -30px;
+  right: 2px;
+  background-image: url("../../assets/images/hero-idea.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 53px;
+  width: 73px;
+}
+.hero__header-number {
+  margin-left: 10px;
+  color: #d434fe;
+  position: relative;
+}
+.hero__header-chain,
+.hero__header-blow {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero__header-chain {
+  background-image: url("../../assets/images/hero-chain.png");
+  right: -90px;
+  height: 86px;
+  width: 86px;
+  bottom: 10px;
+}
+.hero__header-blow {
+  background-image: url("../../assets/images/hero-blow.png");
+  right: -150px;
+  height: 58px;
+  top: 20px;
+  width: 58px;
+}
+.hero__button {
+  padding: 15px;
+  width: 20%;
+  border-radius: 4px;
+  margin: 15px 00px;
+}
+.hero__timer {
+  display: flex;
+  gap: 30px;
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: -7px;
+}
+.hero__header-subscript {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0px 3px;
+}
+
+.hero__right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  margin-top: 50px;
+}
+.hero__image-top {
+  background-image: url("../../assets/images/lens-flare.png");
+  background-position: top left;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.hero__image-headtext {
+  position: relative;
+  margin-left: 10px;
+}
+.hero__image-underline {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/underline.png");
+  left: 0;
+  height: 11.04px;
+  width: 100%;
+  bottom: -10px;
+}
+.hero__images-container {
+  width: 828px;
+  height: 715px;
+  position: relative;
+  overflow: hidden;
+}
+.hero__image-1 {
+  position: absolute;
+  z-index: 88;
+  width: 80%;
+  margin: 0px 40px;
+}
+.hero__image-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .navbar__right {
+    display: none;
+  }
+  .hero__top {
+    justify-self: center;
+    align-self: center;
+  }
+  .hero__bottom {
+    flex-direction: column;
+  }
+  .hero__header {
+    justify-items: center;
+    align-items: center;
+  }
+  .hero__header p {
+    text-align: center;
+  }
+  .hero__right {
+    justify-content: center;
+    align-items: center;
+  }
+}
