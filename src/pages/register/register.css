@@ -298,4 +298,18 @@ input[type="checkbox"] {
   .register__right {
     padding: 10px;
   }
+  .success__modal {
+    /* border: 1px solid #ccc; */
+    width: 90%;
+    gap: 0;
+  }
+  .success__modal h1 {
+    font-size: 23px;
+  }
+  .success__paragraph p {
+    width: 100%;
+  }
+  .image__box {
+    height: 40%;
+  }
 }
