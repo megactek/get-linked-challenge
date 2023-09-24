@@ -10,27 +10,15 @@ import { NavBar } from "./components";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <NavBar>
-        <App />
-      </NavBar>
-    ),
+    element: <App />,
   },
   {
     path: "contact",
-    element: (
-      <NavBar isContact={true}>
-        <Contact />
-      </NavBar>
-    ),
+    element: <Contact />,
   },
   {
     path: "register",
-    element: (
-      <NavBar>
-        <Register />
-      </NavBar>
-    ),
+    element: <Register />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

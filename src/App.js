@@ -16,6 +16,7 @@ import {
 const App = () => {
   return (
     <>
+      <NavBar />
       <Hero />
       <Introduction />
       <Rules />

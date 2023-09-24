@@ -3,7 +3,7 @@ import "./navbar.css";
 import { links } from "../../data";
 import { Link } from "react-router-dom";
 
-const NavBar = ({ children }) => {
+const NavBar = () => {
   const [showMenu, setShowMenu] = React.useState(false);
   return (
     <>
@@ -53,7 +53,6 @@ const NavBar = ({ children }) => {
       ) : (
         <></>
       )}
-      {children}
     </>
   );
 };
