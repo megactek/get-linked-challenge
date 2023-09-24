@@ -120,16 +120,19 @@
   display: none;
 }
 .go__back-icons {
-  margin-left: 10px;
+  margin-left: 4px;
+  padding: 14px;
   background-image: url("../../assets/images/go-back.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 53px;
-  width: 73px;
+  width: 100px;
 }
 .top {
-  margin-top: 40px;
-  padding: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  margin-bottom: 40px;
+  z-index: 9999;
 }
 @media screen and (max-width: 1050px) {
   .only__mobile {
@@ -142,8 +145,10 @@
     width: 80%;
     margin: auto;
     display: flex;
+    flex-direction: column-reverse;
+    margin-top: 180px;
   }
-  .contact__left {
+  .contact__left .contact__left-top {
     display: none;
   }
   .contact__right {
@@ -152,10 +157,8 @@
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    margin: auto;
-    gap: 30px;
+    gap: 10px;
     padding: 0;
-    margin: 40px 0 0 10px;
   }
   .contact__right h2,
   .contact__right p {
@@ -168,6 +171,15 @@
   }
   .contact__right form {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
+    margin-top: 30px;
+  }
+  .contact__left-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 150px;
   }
 }

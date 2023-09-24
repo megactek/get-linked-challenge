@@ -282,3 +282,12 @@ input[type="checkbox"] {
 .success__modal button:hover {
   transform: scale(1);
 }
+
+@media screen and (max-width: 1050px) {
+  .register__left {
+    display: none;
+  }
+  .register__container {
+    margin-bottom: 80px;
+  }
+}

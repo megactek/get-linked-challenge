@@ -83,12 +83,12 @@
 }
 
 .mobile__menu-menu > .navbar__links > .navbar__links-link {
-  width: 93vw;
+  width: 86vw;
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   border-radius: 2px;
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: 500;
   margin: auto;
   line-height: normal;
 }

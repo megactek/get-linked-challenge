@@ -1,15 +1,19 @@
 import React from "react";
 import "./contact.css";
 import { NavBar } from "../../components";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Contact = () => {
+  const navigate = useNavigate();
+  function handleReturn() {
+    navigate("/");
+  }
   return (
     <div className="contact">
       <NavBar />
       <section className="contact__main">
         <div className="only__mobile top">
-          <span className="go__back-icons"></span>
+          <span className="go__back-icons" onClick={() => handleReturn()}></span>
         </div>
         <div className="contact__container">
           <div className="contact__left">
