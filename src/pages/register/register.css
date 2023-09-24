@@ -291,3 +291,11 @@ input[type="checkbox"] {
     margin-bottom: 80px;
   }
 }
+@media screen and (max-width: 1050px) {
+  .register__container {
+    padding: 0;
+  }
+  .register__right {
+    padding: 10px;
+  }
+}
